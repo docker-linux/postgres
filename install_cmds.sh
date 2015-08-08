@@ -59,7 +59,7 @@ sed -i "s%md5sumhash%$(echo -n 'dbpassword' | openssl md5 | sed -e 's/.* /md5/')
 
 # Install cookbooks defined in Berkshelf file
 cd /
-/opt/chef/embedded/bin/berks install --path /etc/chef/cookbooks/
+/opt/chef/embedded/bin/berks vendor /etc/chef/cookbooks/
 
 # Add our custom cookbook to create the database
 mv /create-db.rb /etc/chef/cookbooks/database/recipes/create-db.rb
