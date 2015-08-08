@@ -18,6 +18,6 @@ Bugs / Contributing
 Make contributions the usual way through GitHub, request changes and ask questions in comments below or email me directly at tom@linux-konsult.com.
 
 
-  [1]: https://index.docker.io/u/linux/chef-solo/
+  [1]: https://index.docker.io/u/linuxkonsult/chef-solo/
   [2]: https://github.com/hw-cookbooks/postgresql
   [3]: https://github.com/opscode-cookbooks/database
