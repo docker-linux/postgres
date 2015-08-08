@@ -1,5 +1,5 @@
 {
-  "run_list": [ "recipe[postgresql::client]","recipe[postgresql::server]","recipe[postgresql::config_initdb]","recipe[database::create-db]" ],
+  "run_list": [ "recipe[postgresql::client]","recipe[postgresql::server]","recipe[postgresql::config_initdb]","recipe[database::postgresql]","recipe[database::create-db]" ],
   "postgresql": {
     "config": {
       "listen_addresses": "*",
@@ -12,4 +12,5 @@
     "password": {
       "postgres": "md5sumhash"
     }
+  }
 }
