@@ -1,4 +1,4 @@
-FROM linux/chef-solo
+FROM linuxkonsult/chef-solo
 
 MAINTAINER Tom Eklöf tom@linux-konsult.com
 
@@ -6,6 +6,7 @@ MAINTAINER Tom Eklöf tom@linux-konsult.com
 EXPOSE 5432
 
 ENV LANG C.UTF-8
+ENV DEBIAN_FRONTEND noninteractive
 
 # Add the postgres init script
 ADD ./postgres.sh /postgres.sh
