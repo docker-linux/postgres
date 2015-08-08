@@ -1,7 +1,7 @@
 Introduction
 ------------
 
-This image is based on the Trusted build **[linux/chef-solo][1]** which in turn is based on the **ubuntu** base image.
+This image is based on the ~~Trusted build~~ **[linuxkonsult/chef-solo][1]** which in turn is based on the **ubuntu** base image.
 
 The service is installed and configured with Chef. You can read [here][2] how to edit `/etc/chef/node.json` and run chef-solo to configure the service.
 
